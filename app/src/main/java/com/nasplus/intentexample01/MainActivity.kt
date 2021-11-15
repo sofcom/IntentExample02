@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnOtherApp.setOnClickListener {
-            Toast.makeText(this, "다른 페이지로 이동", Toast.LENGTH_SHORT).show()
+//            toast.makeText(this, "다른 페이지로 이동", toast.LENGTH_SHORT).show()
         }
     }
 }
